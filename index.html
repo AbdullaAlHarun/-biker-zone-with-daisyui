@@ -159,8 +159,14 @@
     <!--Main Section -->
     <main class="md:container md:mx-auto">
         <!--Features Bike Section-->
-        <section>
-
+        <section class="my-24">
+            <h3 class="text-3xl lg:text-5xl font-semibold text-center">Fetured Bikes In This Year</h3>
+            <h5 Class="text-center text-bike-primary font-semibold">Best bike collection</h5>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap:25 justify-center mt-10 border-spacing-2">
+                <img class="w-70 h-60" src="images/others/feature-bike.png" alt="">
+                <img class="w-70 h-60" src="images/others/extrabike.png" alt="">
+                <img class="w-70 h-60" src="images/others/bike3.png" alt="">
+            </div>
         </section>
 
         <!--latest News Section-->
@@ -283,7 +289,7 @@
         <!--FAQ Section-->
         <section class="my-24">
             <h3 class="text-3xl lg:text-5xl font-semibold text-center">Frequently Asked<span class="text-[#E76F51]">Questions</span></h3>
-            <div class="hero min-h-screen mt-10">
+            <div class="hero mt-10">
                 <div class="hero-content flex-col lg:flex-row lg:gap-24">
                   <img src="images/others/faq.png" class="lg:max-w-sm w-3/4 rounded-lg shadow-2xl" />
                   <div>
@@ -333,8 +339,17 @@
     </main>
 
     <!--Footer Section-->
-    <footer>
-
-    </footer>
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <aside>
+            <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+        </aside> 
+        <nav>
+          <header class="footer-title">Social</header> 
+          <div class="grid grid-cols-1 gap-4">
+            <a href="#"><img class="w-36" src="images/others/android.png" alt=""></a> 
+            <a href="#"><img class="w-36" src="images/others/ios.png" alt=""></a> 
+        </div>
+        </nav>
+      </footer>
 </body>
 </html>
