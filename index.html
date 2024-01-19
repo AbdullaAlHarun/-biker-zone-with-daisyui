@@ -32,7 +32,7 @@
     </style>
 </head>
 <body class="font-popins">
-    <header class="md:container md:mx-auto">
+    <header class="md:container md:mx-auto lg:pl-40 lg:pr-40">
         <!--Nav section-->
         <nav>
             <div class="navbar bg-base-100">
@@ -157,15 +157,15 @@
     </header>
 
     <!--Main Section -->
-    <main class="md:container md:mx-auto">
+    <main class="md:container md:mx-auto lg:pl-40 lg:pr-40">
         <!--Features Bike Section-->
         <section class="my-24">
             <h3 class="text-3xl lg:text-5xl font-semibold text-center">Fetured Bikes In This Year</h3>
             <h5 Class="text-center text-bike-primary font-semibold">Best bike collection</h5>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap:25 justify-center mt-10 border-spacing-2">
-                <img class="w-70 h-60" src="images/others/feature-bike.png" alt="">
-                <img class="w-70 h-60" src="images/others/extrabike.png" alt="">
-                <img class="w-70 h-60" src="images/others/bike3.png" alt="">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap:25 justify-center mt-10">
+                <img class="w-2/3 p-10" src="images/others/feature-bike.png" alt="">
+                <img class="w-2/3 h-60 p-10" src="images/others/extrabike.png" alt="">
+                <img class="w-2/3 h-60 p-10" src="images/others/bike3.png" alt="">
             </div>
         </section>
 
@@ -339,17 +339,29 @@
     </main>
 
     <!--Footer Section-->
-    <footer class="footer p-10 bg-neutral text-neutral-content">
-        <aside>
-            <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
-        </aside> 
-        <nav>
-          <header class="footer-title">Social</header> 
-          <div class="grid grid-cols-1 gap-4">
-            <a href="#"><img class="w-36" src="images/others/android.png" alt=""></a> 
-            <a href="#"><img class="w-36" src="images/others/ios.png" alt=""></a> 
-        </div>
-        </nav>
+    <footer class="footer text-[#fff] bg-[#0B0D17] p-10 bg-base-200 flex justify-between">
+        <div class="lg:ml-40">
+            <nav class="grid grid-flow-col gap-4">
+                <a class="link link-hover">Download Now</a>
+                <a class="link link-hover">Licence</a>
+              </nav>
+            
+            <nav class="grid grid-flow-col gap-4">
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav class="grid grid-flow-col gap-4">
+                <p>© 2020 bike. All rights reserved</p>
+            </nav>
+        </div> 
+    
+        <aside class="lg:mr-40">
+            <p>Get the App</p>
+            <a><img class="w-20 h-15" src="images/others/android.png" alt=""></a>
+            <a><img class="w-20 h-15" src="images/others/ios.png" alt=""></a>
+        </aside>
       </footer>
 </body>
 </html>
